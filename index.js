@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 app.use(bodyparser.json());
 
 app.get("/", (req, res) => {
-  res.send("server is on");
+  res.send("server ta khola ase");
 });
 
 //get user data
